@@ -37,8 +37,8 @@ plugins:
 
 # blog settings settings
 excerpt_separator: <!--more-->
-paginate: 10
-paginate_path: "blog/page:num" 
+# paginate: 10
+# paginate_path: "blog/page:num" 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
