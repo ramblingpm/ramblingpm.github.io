@@ -21,11 +21,10 @@ layout: default
             {{ post.title | escape }}
           </a></h3>
 
-          {% if post.excerpt %}
-<p><a href="{{ post.url }}">(more...)</a></p>
-{% endif %}
+          
+<p>{{post.excerpt}}<a href="{{ post.url }}">(more...)</a></p>
+
       </li>
-      {%- endfor -%}
     </ul>
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
