@@ -19,11 +19,8 @@ layout: default
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
-          </a>
+          </a> {{ post.excerpt }}
         </h3>
-  
-          {{ post.excerpt }}
-  
       </li>
       {%- endfor -%}
     </ul>
