@@ -22,7 +22,7 @@ layout: default
           </a></h3>
 
           {% if post.excerpt %}
-<p>{{post.excerpt}}<a href="{{ post.url }}">(more...)</a></p>
+{{post.excerpt}}<a href="{{ post.url }}">(more...)</a>
 {% endif %}
       </li>
       {%- endfor -%}
